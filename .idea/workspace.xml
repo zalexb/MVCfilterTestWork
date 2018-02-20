@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128c819b-e409-4b71-a0a3-0a2d06398b2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/EMIS-test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_dump/books.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/controllers/controller_404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/controllers/controller_books.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/core/controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/core/db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/core/model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/core/route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/core/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/lib/lib.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/lib/paginator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/models/model_books.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/views/404_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/views/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/views/books.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/views/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/views/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/views/layout/template_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/views/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controllers/controller_404.php" afterPath="$PROJECT_DIR$/web/application/controllers/controller_404.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,26 +18,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="books.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/application/views/books.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/application/core/model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,18 +67,18 @@
       <file leaf-file-name="controller_books.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/application/controllers/controller_books.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="238">
+              <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller_404.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controller_404.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/application/controllers/controller_404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -151,11 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/application/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/application/views/404_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -209,6 +162,7 @@
         <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/web/application/core/db.php" />
         <option value="$PROJECT_DIR$/web/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/web/application/controllers/controller_404.php" />
       </list>
     </option>
   </component>
@@ -357,12 +311,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519130679951</updated>
       <workItem from="1519130681543" duration="393000" />
-      <workItem from="1519131274625" duration="10137000" />
+      <workItem from="1519131274625" duration="10215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10530000" />
+    <option name="totallyTimeSpent" value="10608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -574,14 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/application/views/404_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/application/views/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -632,22 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/application/controllers/controller_404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/application/controllers/controller_books.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -709,6 +639,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/application/views/404_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/application/views/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/application/controllers/controller_books.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/application/controllers/controller_404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
           <folding />
         </state>
       </provider>
