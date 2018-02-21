@@ -1,5 +1,5 @@
-<div id="books">
 
+<div id="books">
         <ul class="books_list">
             <?foreach ($data['items'] as $book){?>
             <li>
@@ -32,7 +32,8 @@
             <div class="row1 scroll-pane">
                 <div class="col col-4">
                     <?foreach ($data['authors'] as $author){?>
-                    <label class="checkbox"><input type="checkbox" name="author[]" value="<?=$author['name']?>" ><i></i><?=$author['name']?></label>
+                    <label class="checkbox"><input <?=Lib::filter_check($author['name'])?>
+                                type="checkbox" name="author[]" value="<?=$author['name']?>" ><i></i><?=$author['name']?></label>
                     <?}?>
                 </div>
             </div>
@@ -42,7 +43,8 @@
             <div class="row1 row2 scroll-pane">
                 <div class="col col-4">
                     <?foreach ($data['genres'] as $genre){?>
-                    <label class="checkbox"><input type="checkbox" name="genre[]" value="<?=$genre['name']?>"><i></i><?=$genre['name']?></label>
+                    <label class="checkbox"><input <?=Lib::filter_check($genre['name'])?>
+                                type="checkbox" name="genre[]" value="<?=$genre['name']?>"><i></i><?=$genre['name']?></label>
                     <?}?>
                 </div>
             </div>

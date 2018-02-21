@@ -62,7 +62,7 @@ class Model_Books extends Model
         $year = Lib::clearRequest($_POST['year']);
         $pages = Lib::clearRequest($_POST['pages']);
 
-        if(!preg_match("/^[\s\p{L}-]{4,50}$/u",$name)){
+        if(!preg_match("/^[\s\p{L}0-9-]{4,50}$/u",$name)){
             $_SESSION['errors'] = 'Wrong name';
             header("location: /books/create");
             die();
@@ -113,7 +113,7 @@ class Model_Books extends Model
         $year = Lib::clearRequest($_POST['year']);
         $pages = Lib::clearRequest($_POST['pages']);
 
-        if(!preg_match("/^[\s\p{L}-]{4,50}$/u",$name)){
+        if(!preg_match("/^[\s\p{L}0-9-]{4,50}$/u",$name)){
             $_SESSION['errors'] = 'Wrong name';
             header("location: /books/create");
             die();

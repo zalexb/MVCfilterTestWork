@@ -17,5 +17,17 @@ class Lib
 			return mysqli_fetch_assoc($rows);
 		}
 
+        function filter_check($name)
+        {
+		    $arr = $_GET;
+		    foreach ($arr as $key=>$value){
+		        for($i=0;$i<count($arr[$key]);$i++){
+		            if($arr[$key][$i]==$name){
+		                return 'checked';
+		            }
+                }
+            }
+            return false;
+        }
 }
 ?>
